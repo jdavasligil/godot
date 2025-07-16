@@ -1113,6 +1113,7 @@ void KeyMappingX11::initialize() {
 	xkeysym_unicode_map[0x13BD] = 0x0153;
 	xkeysym_unicode_map[0x13BE] = 0x0178;
 	xkeysym_unicode_map[0x20AC] = 0x20AC;
+	xkeysym_unicode_map[0xFFBD] = 0x003D;
 
 	// Scancode to physical location map.
 	// Ctrl.
