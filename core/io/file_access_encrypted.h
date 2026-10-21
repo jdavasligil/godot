@@ -33,7 +33,7 @@
 #include "core/crypto/crypto_core.h"
 #include "core/io/file_access.h"
 
-#define ENCRYPTED_HEADER_MAGIC 0x43454447
+#define ENCRYPTED_HEADER_MAGIC 2715232734
 
 class FileAccessEncrypted : public FileAccess {
 	GDSOFTCLASS(FileAccessEncrypted, FileAccess);
